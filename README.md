@@ -1,3 +1,3 @@
 # 🎉 Special Gift For Pacarkuu! 
 
-[Web](https://elrexsaa/gift-card)
+[Web](https://elrexsaa.github.io/gift-card)
