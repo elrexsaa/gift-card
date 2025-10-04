@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['nabila', 'Nabila', 'NABILA DEASY RAHMADHANY'];
+    const validNames = ['nikita', 'kila', 'Nikita', 'NIKITA FRISKILA PAKPAHAN'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
