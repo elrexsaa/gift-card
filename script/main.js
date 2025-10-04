@@ -41,8 +41,8 @@ document.getElementById('verificationName').addEventListener('submit', function(
     document.getElementById('step2').style.display = 'block';  // Tampilkan step 2
 });
 
-// Step 2: Verifikasi Pacar Faisal
-// Step 2: Verifikasi Pacar Faisal
+// Step 2: Verifikasi Pacar Elga
+// Step 2: Verifikasi Pacar Elga
 document.getElementById('verification').addEventListener('submit', function(e) {
     e.preventDefault();  // Mencegah form melakukan reload
 
@@ -51,8 +51,8 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Bukan pacar Faisal!',
-            text: 'Coba lagi dari awal.',
+            title: 'Bukan pacar Elga😡!',
+            text: 'Gaboleh Liat!',
             icon: 'warning',
         }).then(() => {
             // Reset form dan kembali ke step 1
@@ -66,7 +66,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika valid, tampilkan SweetAlert sukses dan jalankan animasi
     Swal.fire({
         title: 'Verifikasi berhasil!',
-        text: 'Selamat menikmati animasi!',
+        text: 'Silahkan diliat sayangg😍!',
         icon: 'success',
     }).then(() => {
         // Sembunyikan form verifikasi setelah sukses
